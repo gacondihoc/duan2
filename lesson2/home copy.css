@@ -1,0 +1,120 @@
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+.container{
+   position: relative;
+}
+.bg-image{
+   width: 100%;
+   z-index: -999999;
+   height: 100%;
+   position: absolute;
+   left: 0;
+   top: 0;
+   opacity: 0.5;
+   background-image: url('./xe.jpg');
+   background-repeat: no-repeat;
+   background-position: 0 0;
+   background-size: 100% 100%; 
+   background-attachment: fixed;
+   filter: brightness(0.7);
+   
+}
+
+.header-main {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 100%;
+ 
+ 
+}
+#header{
+   position: fixed;
+   top: 3%;
+
+   
+}
+.logo{
+ font-size: 50;
+ margin-left: 12%;
+ width: 30%;
+ color:#fbcb53
+ 
+ 
+}
+.logo a{
+   text-decoration: none;
+   color:#fbcb53;
+}
+.main-menu ul{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+
+}
+.main-menu ul li {
+ list-style-type: none;
+ font-size: 30px;
+ font-weight: bold;
+ color:#fbcb53;
+ 
+
+}
+.main-menu {
+ width: 70%;
+}
+.main-menu ul li a{
+ text-decoration: none;
+ display: block;
+ position: relative;
+ color:#fbcb53;
+
+
+} .main-menu ul li a::after {
+ content: "";
+ position: absolute;
+ height: 3px;
+ width: 100%;
+ background-color: red;
+ bottom: 0;
+ left: 0;
+ transform: scaleX(0);
+ transition: 0.3s ease-in-out;
+
+
+}
+.main-menu ul li a:hover::after{
+ transform: scaleX(1);
+
+}
+.me{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 100%;
+ padding-top: 6%;
+
+
+}
+.chandung{
+ width:50%;
+ height: auto;
+ text-align: center;
+ filter: drop-shadow(0 0 10px white);
+ margin-top: 1.5%;
+ 
+ 
+}
+.intro{
+ width:50%;
+ margin-right: 10%;
+ margin-top: 7%;
+ font-size: 20px;
+ color: #fbcb53;
+ font-weight: bold;
+
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+body {
+    overflow-x: hidden; /* Loại bỏ thanh cuộn ngang */
+}
+.header {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.794);
+    width: 100%;
+    padding: 35px 12%;
+    top:0;
+    left:0;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: orangered;
+    text-shadow: 0 0 25px orangered,
+    0 0 50px orangered;
+    transform: scale(1.1);
+}
+span{
+    color: orangered;
+}
+.navbar a{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 20px;
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: border-color 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+.contact {
+    padding: 10px 28px;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    font-weight: 600;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.contact:hover{
+    background-color: orangered;
+    color: white;
+    box-shadow:  0 0 25px orangered,
+    0 0 50px orangered;
+
+}
+
+

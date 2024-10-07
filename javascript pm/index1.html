@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index1</title>
+</head>
+<body>
+    <h1>HELLO</h1>
+    <button onclick=doIt1();>click</button>
+    <button onclick="alert('こんにちは');" style="color: aqua;">click</button>
+    <p ondblclick="myfunction()">隅</p>
+    <p id="demo"></p>
+    <button onmouseover="alert('やって')">合図</button>
+    <button onmouseout="alert('帰れ')">物音</button>
+<script>
+    function doIt1(){
+        alert("こんにちは")
+    }
+    function myfunction(){
+        document.getElementById("demo").innerHTML += "Hello World ";
+
+    }
+</script>
+</body>
+</html>

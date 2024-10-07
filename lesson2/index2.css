@@ -1,0 +1,29 @@
+
+body{
+   
+    margin: 0%;
+    background-image: url(xe.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+   position:absolute;
+   transform:translate(0%,-110%);
+}
+
+h1{
+    
+}
+h1{color: red;
+    background-color: black;
+    text-align: center;
+    }
+    .image{
+        text-align: center;
+    }
+    #topimage{
+        height: 200px;
+    }
+    
+ 
